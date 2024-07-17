@@ -1,16 +1,17 @@
-.body{
+body{
     background-color:whitesmoke;
-    display: flex;
     font-family: sans-serif, Helvetica, Arial;
 }
 body main p{
     text-align: center;
 }
-div{
-    flex: auto;
-}
-h1{
+
+h1, h2{
     text-align: center;
+}
+
+main h2{
+    font-weight: 700;
 }
 
 .main{
@@ -22,42 +23,40 @@ body .bend{
     
     color: brown;
 }
-.navbar ul {
-    list-style-type: none;
-    margin-bottom: 50px;
-    padding: 0;
-    border: 1px solid #555;
-    flex: auto;
+
+.navbar{
+    border: solid 1px grey;
+    width: 100%;
+    margin-bottom: 90px;
 }
 
-.navbar ul a {
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.navbar li{
+    margin: 2px;
+    background-color: skyblue;
+}
+
+.navbar li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-/* navbar ul a:focus{
-    color: skyblue;
-} */
-
-/* Change the link color on hover */
-.navbar li:hover {
-    background-color: skyblue;
+.navbar li a.active {
+    background-color: #04AA6D;
     color: white;
 }
 
-/* .active {
-    background-color: skyblue;
+.navbar li a:hover:not(.active) {
+    background-color: #555;
     color: white;
-} */
-
-li {
-    border-bottom: 1px solid #555;
-}
-
-li:last-child {
-    border-bottom: none;
 }
 
 footer{
@@ -66,17 +65,22 @@ footer{
         background-color:skyblue;
         padding: 8px 16px;
         text-decoration: none;
+        height: fit-content;
 }
 
 .columns{
     text-align: center;
-    background-color:skyblue;
+    background-color:gold;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .column {
     float:inline-start;
     width: auto;
     padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 /* Clear floats after the columns */
@@ -84,4 +88,52 @@ footer{
     content: "";
     display: table;
     clear: both;
+}
+
+.update, .srgg{
+    color: white;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.update{
+        background-color: rgb(50, 0, 170);
+}
+
+.srgg{
+    background-color:rgb(255, 81, 0);
+}
+
+.one {
+    background-color: #d9e8ff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.file button{
+    width: fit-content;
+    align-self: center;
+    padding: 15px;
+    border: solid 2px goldenrod;
+    border-radius: 20px;
+    background-color:whitesmoke;
+    color: white;
+    text-decoration: none;
+}
+
+.lone{
+    
+}
+
+iframe{
+    position: absolute;
+    height: 100%;
 }
