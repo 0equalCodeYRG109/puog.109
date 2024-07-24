@@ -39,6 +39,7 @@ body .bend{
 .navbar li{
     margin: 2px;
     background-color: skyblue;
+    border-radius: 5px;
 }
 
 .navbar li a {
