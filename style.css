@@ -57,6 +57,7 @@ body .bend{
 .navbar li a:hover:not(.active) {
     background-color: blue;
     color: white;
+    border-radius: 5px;
 }
 
 footer{
