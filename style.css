@@ -38,13 +38,13 @@ body .bend{
 
 .navbar li{
     margin: 2px;
-    background-color: skyblue;
+    background-color: royalblue;
     border-radius: 5px;
 }
 
 .navbar li a {
     display: block;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -55,7 +55,7 @@ body .bend{
 }
 
 .navbar li a:hover:not(.active) {
-    background-color: #555;
+    background-color: blue;
     color: white;
 }
 
