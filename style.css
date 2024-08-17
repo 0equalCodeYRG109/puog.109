@@ -27,6 +27,8 @@ body .bend{
 .navbar{
     width: 100%;
     margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar ul {
